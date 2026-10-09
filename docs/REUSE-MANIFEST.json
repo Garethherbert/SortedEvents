@@ -1,0 +1,183 @@
+{
+  "repository": "Garethherbert/KeepMyTravels",
+  "commit": "9687658c6ade23277c06466e3c25370a4d8f8adf",
+  "copiedAt": "2026-10-09",
+  "files": [
+    {
+      "path": "Directory.Build.props",
+      "sha": "ca9a00a97ca53fdc029bf33f90651b135a39fab1"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Abstractions/IAccountDataScope.cs",
+      "sha": "1ddb6cf7c8e26794f30163c19c47929ecb6b3216"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Abstractions/ITravelRepository.cs",
+      "sha": "217a60a554578e9a6095bb2d97bfb19b6c17c267"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Abstractions/ITripPackageRepository.cs",
+      "sha": "157756433fd4ec2f5312087349e2e0f89ee09c78"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Enums/BookingStatus.cs",
+      "sha": "16d881cc582a2a06bfdcf08e4971298621360403"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Enums/BookingType.cs",
+      "sha": "59bcf15ec909fadfcccb730dbf237199ad9fcd99"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Enums/ItineraryCategory.cs",
+      "sha": "a8edc7905dafbfceaa4ab9209e80afcb5a9c4379"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Enums/TravelWalletCategory.cs",
+      "sha": "3e85a73293e7d8c76c39b7ed7db4d358783a0d13"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Enums/TripImportMode.cs",
+      "sha": "f4d31cd4a45d027f308634cba122771b7f54ee25"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Enums/TripStatus.cs",
+      "sha": "474b2cd3eb2d31c6b4aa9ac3dadb8c411d65816c"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/KeepMyTravels.Core.csproj",
+      "sha": "555ae434a707e35c0891048590fbdb775d7e6e36"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Models/Booking.cs",
+      "sha": "87f6f6c25b7215522a3c42099614b635c52c1506"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Models/ChecklistItem.cs",
+      "sha": "af1e20ef563286377e750bced83b3c8a438c416c"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Models/Expense.cs",
+      "sha": "dc87eea8bb6097baa0174a025f487fd053d132b2"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Models/ItineraryItem.cs",
+      "sha": "29c61652c1362d8468c663a2686cc0b0d6695a88"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Models/PhoneWalletLinks.cs",
+      "sha": "4842997e23dd6325587962e4f8bc48bfd101a3e8"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Models/PreTravelItem.cs",
+      "sha": "b6970d0f4c3530a8c810343d52c73d5311b3f45d"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Models/TravelDocument.cs",
+      "sha": "5241230ede788ee21e76e7c11df70500f7e6035c"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Models/TravelWalletItem.cs",
+      "sha": "e8ea6ad4885f6ec878bb2b5aea8eb38c27062483"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Models/Trip.cs",
+      "sha": "d840eb9841c373183df359f5b6655b79ace1c483"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Models/TripPhoto.cs",
+      "sha": "c33b389c3e3bcfaec9419154914af2c45c07b531"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Services/BookingConfirmationParser.cs",
+      "sha": "a4cc647cc8263a91806a17f1e9d3252315d06bd8"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Services/SplitBillAccounting.cs",
+      "sha": "65969841213e76bcb34cd7653f29f0f493b1d0c3"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Services/TripMediaDates.cs",
+      "sha": "82e9be75f72c25f1112b896f5f7616e6a87b7819"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Transfer/CollaborationAsset.cs",
+      "sha": "20b8a128d9d28b1f80cf5b5da4c60fec8b173660"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Transfer/LocalTripTransfer.cs",
+      "sha": "8b5fa8026ce9bab7d7e302e2e7a1df8fb4c12070"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Transfer/SafeTransferDownload.cs",
+      "sha": "608ed65d150243a8f582d9087e147aca87524b56"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Transfer/TripTransferPackage.cs",
+      "sha": "53943b69d2a49d998d78869e8593e38983ef8f21"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Transfer/TripTransferPackageValidator.cs",
+      "sha": "75b19f2a58701f3411d52c7ffb0edbb257715795"
+    },
+    {
+      "path": "src/KeepMyTravels.Core/Transfer/TripTransferVideo.cs",
+      "sha": "e19d191261863e447dbf24791364b404f701d6e2"
+    },
+    {
+      "path": "src/KeepMyTravels.Infrastructure/DatabaseSchema.cs",
+      "sha": "b5ed511d24ca0753c43b93d085c5b9a20c01e5f5"
+    },
+    {
+      "path": "src/KeepMyTravels.Infrastructure/Entities/BookingEntity.cs",
+      "sha": "6bda4771aae2282067da34534fc842398275a9b4"
+    },
+    {
+      "path": "src/KeepMyTravels.Infrastructure/Entities/ChecklistItemEntity.cs",
+      "sha": "0c1b2d23df0374bdda5ae966f4832c48f2467af2"
+    },
+    {
+      "path": "src/KeepMyTravels.Infrastructure/Entities/ExpenseEntity.cs",
+      "sha": "ec957cd51dca62dbb3c7cc1f030251f485079f28"
+    },
+    {
+      "path": "src/KeepMyTravels.Infrastructure/Entities/ItineraryItemEntity.cs",
+      "sha": "3e6e142448a9c64110c0c32f766c39b5263e62c0"
+    },
+    {
+      "path": "src/KeepMyTravels.Infrastructure/Entities/PreTravelItemEntity.cs",
+      "sha": "ad706f020bb7e121e580b637d8bfe7da368716bf"
+    },
+    {
+      "path": "src/KeepMyTravels.Infrastructure/Entities/TravelDocumentEntity.cs",
+      "sha": "2385eeb311a19ce576bac32b7cd56ef316a583ff"
+    },
+    {
+      "path": "src/KeepMyTravels.Infrastructure/Entities/TravelWalletItemEntity.cs",
+      "sha": "5134ba590d874b461ffe8d2e597e2f2da1622d1b"
+    },
+    {
+      "path": "src/KeepMyTravels.Infrastructure/Entities/TripEntity.cs",
+      "sha": "2318af0858a2150ae88093b441b25750b265b43b"
+    },
+    {
+      "path": "src/KeepMyTravels.Infrastructure/Entities/TripPhotoEntity.cs",
+      "sha": "cb83cebebd64ef7ef0b8b6eb8fa5ebd1bdd0d5ae"
+    },
+    {
+      "path": "src/KeepMyTravels.Infrastructure/KeepMyTravels.Infrastructure.csproj",
+      "sha": "99119546bb36cee489fa9eb9b5f735d5c923b89b"
+    },
+    {
+      "path": "src/KeepMyTravels.Infrastructure/TravelRepository.cs",
+      "sha": "518989762bf87e848b56fb2b881e5003b221e98e"
+    }
+  ],
+  "adaptations": [
+    "BigDayTransfer derives from LocalTripTransfer with event naming and separate URI scheme",
+    "Platform bootstrap adapted and simplified",
+    "EventStore persists event/trip mappings using TravelRepository"
+  ],
+  "localModifications": {
+    "Directory.Build.props": "Added a conditional LIVE_DAYS_SORTED build symbol; upstream SHA remains provenance of the original copied file."
+  }
+}

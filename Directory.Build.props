@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+<PropertyGroup Condition="'$(AppBrand)'=='LiveDaysSorted'"><DefineConstants>$(DefineConstants);LIVE_DAYS_SORTED</DefineConstants></PropertyGroup></Project>

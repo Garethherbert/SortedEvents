@@ -1,0 +1,1 @@
+ALTER TABLE `invites` ADD `seat` text DEFAULT '' NOT NULL;

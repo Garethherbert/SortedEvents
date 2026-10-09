@@ -1,0 +1,8 @@
+{
+ "accountId":"REPLACE_WITH_ACCOUNT_ID",
+ "accessTeamDomain":"https://YOUR-TEAM.cloudflareaccess.com",
+ "products":{
+  "BigDaySorted":{"domains":["YOUR-BIGDAY-DOMAIN"],"accessAud":"REPLACE_WITH_ACCESS_AUD","databaseName":"bigdaysorted-events","databaseId":"REPLACE_WITH_D1_UUID","bucketName":"bigdaysorted-media"},
+  "LiveDaysSorted":{"domains":["YOUR-LIVEDAY-DOMAIN"],"accessAud":"REPLACE_WITH_ACCESS_AUD","databaseName":"livedayssorted-events","databaseId":"REPLACE_WITH_D1_UUID","bucketName":"livedayssorted-media"}
+ }
+}

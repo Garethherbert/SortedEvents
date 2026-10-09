@@ -1,0 +1,4 @@
+import {DatabaseSync} from 'node:sqlite';
+import {readFile,readdir,mkdir,writeFile,unlink} from 'node:fs/promises';
+export async function database(path=':memory:'){const db=new DatabaseSync(path);db.exec('PRAGMA foreign_keys=ON');for(const f of (await readdir('drizzle')).filter(x=>x.endsWith('.sql')).sort()){db.exec(await readFile('drizzle/'+f,'utf8'));}return {prepare(sql){return {bind(...args){const st=db.prepare(sql);return {async first(){return st.get(...args)||null},async all(){return {results:st.all(...args)}},async run(){const r=st.run(...args);return {meta:{changes:Number(r.changes)}}}}}}},raw:db};}
+export function bucket(){let store=new Map();return {async put(key,data){store.set(key,new Uint8Array(data))},async get(key){const body=store.get(key);return body?{body}:null},async delete(key){store.delete(key)}}}
